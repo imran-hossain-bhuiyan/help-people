@@ -155,6 +155,11 @@ margin-top: 150px;
 .card.water{
     background: rgba(255, 192, 203, 0.6);
 }
+
+.card i{
+    font-size: 50px;
+    color: #515151;
+}
 .card.family{
     background: #FFF4D6;
 }
