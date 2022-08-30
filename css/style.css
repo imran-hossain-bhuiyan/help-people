@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --primary: rgba(21, 153, 87, 0.65);
+    --secondary: rgba(21, 87, 153, 0.65);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner-container {
+    padding-left: 250px;
+    height: 100vh;
+    background-image: linear-gradient(150deg, var(--primary), var(--secondary)), url(../images/donation0.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+
+.banner {
+    text-align: center;
+    max-width: 80%;
+    padding-top: 250px;
+    color: #ffffff;
+}
+
+.banner-title {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.title-color {
+    color: #ec3856;
+}
+
+.banner-description {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.link-btn {
+    text-decoration: none;
+    padding: 15px 30px;
+    background: #ec3856;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+
+.link-btn:hover {
+    background: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+    outline-style: ridge;
+    outline-color: #ec3856;
+}
+
+.donation {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.donation h1 {
+    font-size: 54px;
+    color: #ec3856;
+}
+.donation p{
+    width: 50%;
+    margin-left: 350px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.donation-amount {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 400px;
+    color: #3b3b3b;
+
+}
+
+.bg-color {
+    background: rgba(128, 128, 128, 0.1);
+    padding: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.default-donate {
+    background: rgba(236, 56, 86, 0.1);
+    color: #ec3856;
+    border: 1px solid #ec3856;
+}
+
+.input {
+    font-size: 18px;
+    margin-top: 25px;
+    border: none;
+    text-align: center;
+}
+
+.underline {
+    border: 1px solid gray;
+    width: 46%;
+    margin-left: 400px;
+    margin-top: 5px;
+    margin-bottom: 18px;
+}
+.our-goal{
+text-align: center;
+margin-top: 150px; 
+}
+.our-goal h1{
+    font-size: 55px;
+    color: #ec3856;
+}
+.goal-details{
+    width: 50%;
+    margin-left: 350px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.card-container{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+   margin-bottom: 250px;
+   
+
+}
+.card{
+    width: 300px;
+    height: 250px;
+    text-align: left;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px gray;
+}
+.card h3{
+    margin:10px 0px;
+}
+.card.water{
+    background: rgba(255, 192, 203, 0.6);
+}
+.card.family{
+    background: #FFF4D6;
+}
+.card.child{
+    background: #4F9DA61A;
+}
+.mission{
+    display: flex;
+    gap: 30px;
+    margin: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 200px;
+}
+.mission h1{
+    font-size: 40px;
+}
+.mission-width{
+    width: 50%;
+}
+.donation-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+.about{
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+}
+.about-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    justify-content: space-around;
+    margin-bottom: 150px;
+    background: rgba(236, 56, 86, 0.1);
+    color: #ec3856;
+}
+.updates{
+   text-align: center;
+}
+.updates-title{
+    font-size: 50px;
+    font-weight: 600;
+}
+.form-container{
+    background: rgb(249, 234, 192);
+    width: 60%;
+    height: 150px;
+    margin-left: 300px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+
+#input-email{
+    padding: 10px 30px;
+    border: none;
+    background: rgba(128, 128, 128, 0.648);
+   
+}
+#input-email::placeholder{
+    color:white;
+    font-size: 16px;
+}
+#input-submit{
+    padding: 10px 30px;
+    border: none;
+    background:#ec3856;
+    margin-left: -5px;
+    cursor: pointer;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.footer-container{
+    text-align: center;
+    background: black;
+    color: rgba(255, 255, 255, 0.65);
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.site-name{
+    font-size: 30px;
+    color: #ec3856ca;
+    margin-bottom: 10px;
+}
